@@ -13,6 +13,10 @@ function four() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 4);
 }
+function inverso() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, -1);
+}
 </script>
 </head>
 <body>
@@ -28,6 +32,8 @@ function four() {
  <button onclick="four()"> x^4 </button>
 
  <button onclick="cuadrado()"> x^2 </button>
+
+ <button onclick="inverso()"> 1/x </button>
 
  </p>
 </body>
